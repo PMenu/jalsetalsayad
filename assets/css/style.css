@@ -10,17 +10,17 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Poppins", sans-serif;
-  color: #CCA64C;
-  background-image: url("\img\mayslogo.jpg");
+  color: #ffffff;
+  background: #666666
 }
 
 a {
   text-decoration: none;
-  color: #CCA64C;
+  color: #ffffff;
 }
 
 a:hover {
-  color: #CCA64C;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #CCA64C;
+  background: #ffffff;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #CCA64C;
+  background: #ffffff;
   color: #fff;
 }
 .back-to-top.active {
@@ -82,10 +82,10 @@ section {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  color: #CCA64C;
+  color: #ffffff;
 }
 .section-title h2 span {
-  color: #CCA64C;
+  color: #ffffff;
 }
 .section-title p {
   margin: 15px auto 0 auto;
@@ -120,16 +120,16 @@ section {
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
-  color: #CCA64C;
+  color: #ffffff;
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
-  border: 2px solid #CCA64C;
+  /* background: #fff; */
+  border: 2px solid #ffffff;
   border-radius: 50px;
 }
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
-  color: #fff;
-  background: #CCA64C;
+  /* color: #fff; */
+  /* background: #ffffff; */
 }
 .menu #menu-flters li:last-child {
   margin-right: 0;
@@ -141,11 +141,11 @@ section {
   justify-content: space-between;
   position: relative;
   padding-right: 10px;
-  background: #fff;
+  /* background: #fff; */
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: #CCA64C;
+  color: #ffffff;
 }
 .menu .menu-content::after {
   position: absolute;
@@ -158,7 +158,7 @@ section {
 }
 
 .menu .menu-content span {
-  background: #fff;
+  /* background: #fff; */
   position: relative;
   z-index: 3;
   padding: 0 10px;
@@ -177,7 +177,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: none;
-  color: #CCA64C;
+  color: #ffffff;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -185,7 +185,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #CCA64C;
+  color: #ffffff;
   position: relative;
   padding: 0;
   margin: 0 0 15px 0;
@@ -203,7 +203,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: none;
-  color: #CCA64C;
+  color: #ffffff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
