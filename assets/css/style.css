@@ -127,10 +127,10 @@ section {
   border: 2px solid #ffffff;
   border-radius: 50px;
 }
-.menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
+/* .menu #menu-flters li:hover, .menu #menu-flters li.filter-active { */
   /* color: #fff; */
   /* background: #ffffff; */
-}
+/* } */
 .menu #menu-flters li:last-child {
   margin-right: 0;
 }
