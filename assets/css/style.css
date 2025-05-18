@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-  color: #ffffff;
+  color: #0b4240;
   text-decoration: none;
 }
 
@@ -126,14 +126,14 @@ section {
   color: #ffffff;
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  background: #0b4240;
-  border: 2px solid #ffffff;
+  /* background: #ffffff; */
+  border: 2px solid #0b4240;
   border-radius: 50px;
 }
-/* .menu #menu-flters li:hover, .menu #menu-flters li.filter-active { */
-  /* color: #fff; */
-  /* background: #ffffff; */
-/* } */
+.menu #menu-flters li:hover, .menu #menu-flters li.filter-active { 
+  color: #fff;
+  background: #0b4240;
+/* /* } */
 .menu #menu-flters li:last-child {
   margin-right: 0;
 }
