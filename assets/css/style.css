@@ -11,7 +11,10 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #ffffff;
-  background: #666666
+  background-image: url("../img/background.png");
+  background-size: cover; /* Ensures the background covers the whole page */
+  background-position: center center; /* Centers the background */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
 }
 
 a {
@@ -168,7 +171,7 @@ section {
   font-style: italic;
   font-size: 14px;
   font-family: "Comic Neue", sans-serif;
-  color: #948c81;
+  color: #ffffff;
 }
 
 
