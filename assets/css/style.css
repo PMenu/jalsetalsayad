@@ -10,8 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
-  background-image: url("../img/background.png");
+  color: #0b4240;
+ background-image: url("../img/background.png");
   background-size: cover; /* Ensures the background covers the whole page */
   background-position: center center; /* Centers the background */
   background-repeat: no-repeat; /* Prevents the background from repeating */
@@ -29,6 +29,12 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Satisfy", sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*--------------------------------------------------------------
@@ -85,10 +91,10 @@ section {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  color: #ffffff;
+  color: #0b4240;
 }
 .section-title h2 span {
-  color: #ffffff;
+  color: #0b4240;
 }
 .section-title p {
   margin: 15px auto 0 auto;
@@ -109,6 +115,16 @@ section {
 .text-center{
   font-size: 20px;
 }
+
+
+.sub {
+  font-style: italic;
+  font-size: 14px;
+  font-family: "Comic Neue", sans-serif;
+  color: #e4724f;
+  text-align: center;
+}
+
 .menu #menu-flters {
   padding: 0;
   margin: 0 auto 0 auto;
@@ -123,17 +139,17 @@ section {
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
-  color: #ffffff;
+  color: #675546;
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  /* background: #ffffff; */
+  background: #fff;
   border: 2px solid #0b4240;
   border-radius: 50px;
 }
-.menu #menu-flters li:hover, .menu #menu-flters li.filter-active { 
+.menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
   color: #fff;
   background: #0b4240;
-/* /* } */
+}
 .menu #menu-flters li:last-child {
   margin-right: 0;
 }
@@ -171,7 +187,7 @@ section {
   font-style: italic;
   font-size: 14px;
   font-family: "Comic Neue", sans-serif;
-  color: #ffffff;
+  color: #948c81;
 }
 
 
@@ -180,7 +196,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: none;
-  color: #ffffff;
+  color: #365B6D;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -188,7 +204,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #ffffff;
+  color: #365B6D;
   position: relative;
   padding: 0;
   margin: 0 0 15px 0;
@@ -206,7 +222,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: none;
-  color: #ffffff;
+  color: #365B6D;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
