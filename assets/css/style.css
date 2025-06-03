@@ -11,7 +11,8 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0b4240;
- background-image: url("../img/background.png");
+ /* background-image: url("../img/background.png"); */
+ background-color: #D9D9D9;
   background-size: cover; /* Ensures the background covers the whole page */
   background-position: center center; /* Centers the background */
   background-repeat: no-repeat; /* Prevents the background from repeating */
@@ -19,7 +20,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #0b4240;
 }
 
 a:hover {
@@ -47,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffffff;
+  background: #0b4240;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -59,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #ffffff;
+  background: #0b4240;
   color: #fff;
 }
 .back-to-top.active {
@@ -164,7 +165,7 @@ section {
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: #ffffff;
+  color: #0b4240;
 }
 .menu .menu-content::after {
   position: absolute;
